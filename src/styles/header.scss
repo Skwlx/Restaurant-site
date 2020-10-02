@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    background-color: #C059BD;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.header-menu-item{
+    margin: auto 20px;
+    transition: .3s ease;
+    &:hover{
+        transform: scale(1.2);
+    }
+}

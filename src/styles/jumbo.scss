@@ -1,0 +1,19 @@
+.jumbotronContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/jumbo.jpg");
+    background-position: center;
+}
+
+.jumbotron{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-content{
+    color: white;
+    font-size: 4rem;
+}
