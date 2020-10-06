@@ -49,3 +49,9 @@
 .menuFood-a{
     margin: auto;
 }
+
+@media(max-width:700px){
+    .menuImages{
+        flex-wrap: wrap;
+    }
+}

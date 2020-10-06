@@ -1,21 +1,88 @@
+// HEADER ANIMATIONS
+@keyframes toggleMenu{
+    0%{
+        transform: translateX(-800px);
+    }
+    100%{
+        transform: translateY(0);
+        padding: 15px 0 15px 0;
+    }
+}
+
+.animateMenu{
+    animation: toggleMenu .7s ease-in-out forwards;
+}
+
+//HEADER STYLES
+
 .header{
     width: 100%;
     background-color: #C059BD;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
     color: #ffffff;
+    position: fixed;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
 }
 
-.header-menu{
+.headerMenu{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    position: relative;
 }
 
-.header-menu-item{
+.headerMenuItemLogo{
+    margin-bottom: 10px;
+}
+
+.headerMenuItem{
     margin: auto 20px;
     transition: .3s ease;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
     &:hover{
         transform: scale(1.2);
+    }
+}
+
+.headerMenuHamburger{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    .line{
+        border: 1px solid white;
+        margin: 5px auto;
+    }
+}
+
+@media(max-width:700px){
+    .headerMenu{
+        justify-content: center;
+        transform: translateX(-800px);
+        text-align: center;
+        display: hidden;
+    }
+
+    .headerMenuItem{
+        padding: 0;
+    }
+
+    .headerMenuHamburger{
+        display: block;
+    }
+    .headerMenuItemLogo{
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }

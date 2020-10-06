@@ -1,32 +1,40 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import "../styles/header.scss"
 
 
 const Header = () => {
 
+    useEffect(() => {
+      const hamburgerMenu = document.querySelector('.headerMenuHamburger');
+      const menu = document.querySelector('.headerMenu');
+      hamburgerMenu.addEventListener('click', () =>{
+          menu.classList.toggle('animateMenu')
+      }, false)
+    });
+
     return(
     <header className="header">
       <div>
+      <h1 className="headerMenuItemLogo">
+      <a href="#jumbo">Mexican Food</a>
+      </h1>
         <nav>
-          <ul className="header-menu">
-            <li className="header-menu-item">
-              O nas
+          <ul className="headerMenu">
+            <li className="headerMenuItem">
+              <a href="#about">O nas</a>
             </li>
-            <li className="header-menu-item">
-              Menu
+            <li className="headerMenuItem">
+            <a href="#menu">Menu</a>
             </li>
-            <li className="header-menu-item">
-              <h1>
-                Mexican Food
-              </h1>
-            </li>
-            <li className="header-menu-item">
-              Kontakt
-            </li>
-            <li className="header-menu-item">
-              Social-links
+            <li className="headerMenuItem">
+            <a href="#contact">Kontakt</a>
             </li>
           </ul>
+          <div className="headerMenuHamburger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
         </nav>
       </div>
     </header>

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/contact.scss"
 
 const Contact = () => (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
         <div className="contact">
             <div className="contactAdress">
             <h3>Zapraszamy</h3>

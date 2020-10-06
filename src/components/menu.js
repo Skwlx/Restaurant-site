@@ -6,7 +6,7 @@ import "../styles/menu.scss";
 
 
 const Menu = () => (
-    <div className="menuContainer">
+    <div className="menuContainer" id="menu">
         <div className="menu">
             <div className="menuImages">
                 <img src={tacoJpg} alt="Taco" />

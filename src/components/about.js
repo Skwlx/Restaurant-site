@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/about.scss";
 
 const About = () => (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="about">
         <div className="about">
-            <div className="about-content">
+            <div className="aboutContent">
                 <h2>O nas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                  Nunc eget libero euismod lacus maximus auctor. Curabitur pretium et libero nec tincidunt.
