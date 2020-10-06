@@ -2,13 +2,45 @@
     width: 100%;
 }
 
+.menu{
+    h2{
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
 .menuImages{
     width: 100%;
     display: flex;
 }
 
 .menuContent{
-    display: flex;
-    justify-content: center;
     padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuFood{
+    width: 300px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    h3{
+        border-bottom: 3px solid black;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            padding: 10px;
+            font-family: 'Lobster', cursive;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.menuFood-a{
+    margin: auto;
 }
