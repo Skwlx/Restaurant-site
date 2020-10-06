@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import "../styles/header.scss"
 
 
 const Header = () => {
+
     return(
     <header className="header">
       <div>
@@ -20,10 +21,10 @@ const Header = () => {
               </h1>
             </li>
             <li className="header-menu-item">
-              Contact
+              Kontakt
             </li>
             <li className="header-menu-item">
-            We are open
+              Social-links
             </li>
           </ul>
         </nav>
