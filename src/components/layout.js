@@ -4,6 +4,7 @@ import Header from "./header"
 import "../styles/main.scss"
 
 const Layout = (props) => {
+
   return (
     <div>
     <Header/>

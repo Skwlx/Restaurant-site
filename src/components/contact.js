@@ -18,10 +18,6 @@ const Contact = () => (
                 <p><b>Weekend</b></p>
                 <p>12:00 - 18:00</p>
                 </div>
-            <div className="contactMap">
-            <iframe scrolling="no" marginHeight="0" marginWidth="0"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Warszawa+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-            </iframe>
-            </div>
         </div>
     </div>
 )

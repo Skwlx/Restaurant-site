@@ -16,7 +16,6 @@
 
 .menuImages{
     display: flex;
-    flex-wrap: wrap;
     img{
         margin: auto;
         max-width: 1000px;
@@ -56,3 +55,22 @@
     margin: auto;
 }
 
+
+@media(max-width:700px){
+    .menuImages{
+        img{
+            margin: auto;
+            max-width: 600px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(max-width:400px){
+    .menuImages{
+        img{
+            max-width: 375px;
+        }
+    }
+}

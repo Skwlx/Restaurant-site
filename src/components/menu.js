@@ -1,6 +1,5 @@
 import React from "react";
 import tacoJpg from "../images/taco.jpg";
-import tacosJpg from "../images/taco2.jpg"
 
 import "../styles/menu.scss";
 
@@ -10,7 +9,7 @@ const Menu = () => (
         <div className="menu">
             <h2>MENU</h2>
             <div className="menuContent">
-                <div className="menuFood">
+                <div className="menuFood" data-aos="fade-right">
                     <ul>
                     <h3>Taco</h3>
                         <li>Lorem 10 zł</li>
@@ -20,7 +19,7 @@ const Menu = () => (
                         <li>Lorem 10 zł</li>
                     </ul>
                 </div>
-                <div className="menuFood">
+                <div className="menuFood" data-aos="fade-right">
                 <ul>
                 <h3>Burrito</h3>
                     <li>Lorem 12 zł</li>
@@ -30,7 +29,7 @@ const Menu = () => (
                     <li>Lorem 12 zł</li>
                 </ul>
                 </div>
-                <div className="menuFood">
+                <div className="menuFood" data-aos="fade-right">
                 <ul>
                 <h3>Quesadillas</h3>
                     <li>Lorem 14 zł</li>
@@ -40,7 +39,7 @@ const Menu = () => (
                     <li>Lorem 14 zł</li>
                 </ul>
                 </div>
-                <div className="menuFood">
+                <div className="menuFood" data-aos="fade-right">
                 <ul>
                 <h3>Napoje</h3>
                     <li>Lorem 5 zł</li>
@@ -50,7 +49,7 @@ const Menu = () => (
                     <li>Lorem 5 zł</li>
                 </ul>
             </div>
-            <div className="menuFood menuFood-a">
+            <div className="menuFood menuFood-a" data-aos="fade-right">
             <ul>
             <h3>Sosy</h3>
                 <li>Lorem 1 zł</li>
@@ -60,7 +59,7 @@ const Menu = () => (
         </div>
             </div>
             <div className="menuImages">
-            <img src={tacoJpg} alt="Taco" />
+            <img src={tacoJpg} alt="Taco" data-aos="fade-left" />
         </div>
         </div> 
     </div>
