@@ -8,10 +8,6 @@ import "../styles/menu.scss";
 const Menu = () => (
     <div className="menuContainer" id="menu">
         <div className="menu">
-            <div className="menuImages">
-                <img src={tacoJpg} alt="Taco" />
-                <img src={tacosJpg} alt="Taco" />
-            </div>
             <h2>MENU</h2>
             <div className="menuContent">
                 <div className="menuFood">
@@ -63,6 +59,9 @@ const Menu = () => (
             </ul>
         </div>
             </div>
+            <div className="menuImages">
+            <img src={tacoJpg} alt="Taco" />
+        </div>
         </div> 
     </div>
 )
