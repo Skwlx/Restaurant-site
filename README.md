@@ -1,3 +1,3 @@
-#Mexican restaurant 
+# Mexican restaurant
 
-Site made to my portfolio.
+Template site made for fun and practice.
